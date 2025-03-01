@@ -1,0 +1,17 @@
+body {
+    background-color: #f7e7d6;
+}
+
+*{
+    font-family: Inria Serif;
+}
+
+.styled-spacer{
+    border: white 1px solid;
+    border-radius: 50px;
+}
+
+.icon-white{
+    fill: #ffffff;
+    background-color: transparent;
+}
