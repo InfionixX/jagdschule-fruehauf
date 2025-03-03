@@ -1,8 +1,8 @@
 
 #heading{
     height: 100vh;
+    min-height: 100vh;
 }
-
 
 .bg-img{
     width: 100vw;
@@ -125,22 +125,23 @@
   /*Navbar Styling*/
 
     .navbar{
-        background-color: transparent;
-        width: 100%;
-        height: 10vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        align-self: center;
-        justify-self: center;
-        z-index: 1;
+      background-color: transparent;
+      transition: background-color 0.3s ease;
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      align-self: center;
+      justify-self: center;
+      z-index: 1;
     }
+    
+  .bg-green {
+      background-color: #334335a1;
 
-  .navbar-light .navbar-brand {
-        color: white;
-        margin-left: 5%;
- }   
+  }
 
   .navbar-collapse{
     align-items: center;
@@ -150,16 +151,22 @@
     align-content: center;
   }
 
-  .navbar-brand{
+  .navbar-nav .nav-item {
+    align-items: center;
+    align-self: center;
+}
+
+
+  .navbar-light .navbar-brand{
     color: white;
     font-size: 30px;
     text-decoration: underline;
   }
 
-  .navbar-brand:hover{
-    color: white;
-    text-decoration: underline;
-  }
+  .navbar-light .navbar-brand:hover {
+    color: white; /* Keep the color the same as the default */
+    text-decoration: underline; /* Remove the underline */
+}
 
   .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -170,10 +177,6 @@
 .navbar-light .navbar-nav .nav-link:hover {
     text-decoration: none;
     color: gray;
-}
-
-.navbar-nav .nav-item {
-    margin-right: 15%; /* Adjust the value as needed */
 }
 
 .nav-item .social-container{
@@ -198,4 +201,78 @@
 
 .nav-item .social-container>a:hover{
     color: gray;
+}
+
+.navbar-toggler {
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.432);
+}
+
+.navbar-toggler-icon {
+  fill: #fff;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 5%; /* Adjust the value as needed */
+    }
+
+    .navbar-brand{
+        margin-left: 2%;
+    }
+
+    .navbar-collapse{
+        margin-right: 2%;
+    }
+
+    .nav-item .social-container{
+        gap: 10px;
+    }
+
+    .nav-item .social-container>a{
+        font-size: 20px;
+    }
+  
+#wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-left: 0;
+    max-height: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the wrapper takes the full viewport height */
+}
+
+#wrapper h1 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#wrapper h2 {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+#heading{
+  width: 100%;
+}
+
+#heading h1{
+  color: #fff;
+}
 }
