@@ -143,14 +143,6 @@
 
   }
 
-  .navbar-collapse{
-    align-items: center;
-    align-self: center;
-    justify-self: center;
-    justify-content: center;
-    align-content: center;
-  }
-
   .navbar-nav .nav-item {
     align-items: center;
     align-self: center;
@@ -178,6 +170,17 @@
     text-decoration: none;
     color: gray;
 }
+
+.navbar-collapse{
+    justify-content: end;
+    padding-right: 10%;
+    }
+
+    .navbar-nav{
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
 
 .nav-item .social-container{
     display: flex;
@@ -212,7 +215,40 @@
   fill: #fff;
 }
 
+@media (max-width: 991px) {
+
+  .navbar{
+    padding: 0px;
+    flex-direction: row;
+    height: 6.5vh;
+  }
+
+  .navbar-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 0%;
+  }
+
+  .navbar-collapse{
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+    padding-right: 0%;
+    margin-top: 4px;
+    padding-bottom: 10px;
+  }
+}
+
 @media (max-width: 768px) {
+
+    .navbar{
+      padding: 0px;
+      flex-direction: row;
+      height: 6.5vh;
+    }
     .navbar-brand{
         font-size: 20px;
     }
@@ -230,7 +266,14 @@
     }
 
     .navbar-collapse{
-        margin-right: 2%;
+      align-items: center;
+      align-self: center;
+      justify-self: center;
+      justify-content: center;
+      align-content: center;
+      padding-right: 0%;
+      margin-top: 4px;
+      padding-bottom: 10px;
     }
 
     .nav-item .social-container{
