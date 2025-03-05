@@ -1,0 +1,61 @@
+/*Logo Section*/
+
+.logo-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+    width: 100%;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper img {
+    width: 70%; /* Downsize the image by 20% */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the text */
+    width: 100%;
+}
+
+.logo-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #235021;
+}
+
+.logo-text h2 {
+    color: #837A71;
+}
+
+.logo-text p {
+    font-size: 1.5rem;
+    color: #837A71;
+
+}
+
+.logo-text a{
+    border: 1px solid  black;
+    background-color: #334335;
+    color: #f7e7d6;
+    border-radius: 20px;
+    width: 180px;
+}
+
+/* End of _styling/aboutus.css */

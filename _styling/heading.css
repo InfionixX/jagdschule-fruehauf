@@ -1,7 +1,6 @@
 
 #heading{
-    height: 100vh;
-    min-height: 100vh;
+    height: 90vh;
 }
 
 .bg-img{
@@ -34,17 +33,14 @@
   }
 
   #wrapper{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 125px;
     align-items: center;
     flex-direction: column;
     align-self: center;
     z-index: 0;
-    margin-top: 20%;
-    margin-left: 60%;
-    max-height: 300px;
-    width: 70%;
+    width: 100vw;
+    padding-left: 30%;
+    padding-right: 0%;
+    margin-right: 13%;
   }
 
   #wrapper>*{
@@ -58,16 +54,12 @@
     color: white;
     font-size: 50px;
     text-align: center;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
   }
   
   #wrapper h2{
     color: white;
     font-size: 45px;
     text-align: center;
-    margin-top: 0px;
-    padding-top: 0px;
   }
 
   .spacer-container{
@@ -217,6 +209,9 @@
 
 @media (max-width: 991px) {
 
+  #heading{
+    height: 93.5vh;
+  }
   .navbar{
     padding: 0px;
     flex-direction: row;
@@ -230,6 +225,10 @@
     padding-right: 0%;
   }
 
+  .navbar-toggler{
+    margin-right: 5%;
+  }
+
   .navbar-collapse{
     align-items: center;
     align-self: center;
@@ -237,8 +236,11 @@
     justify-content: center;
     align-content: center;
     padding-right: 0%;
-    margin-top: 4px;
     padding-bottom: 10px;
+  }
+
+  #wrapper{
+    padding-left: 0%;
   }
 }
 
@@ -272,7 +274,6 @@
       justify-content: center;
       align-content: center;
       padding-right: 0%;
-      margin-top: 4px;
       padding-bottom: 10px;
     }
 
@@ -285,30 +286,29 @@
     }
   
 #wrapper {
-    padding-top: 50px;
+    padding-top: 30%;
     padding-bottom: 50px;
-    padding-left: 0;
     padding-right: 0;
-    margin-top: 0;
     margin-left: 0;
     max-height: none;
+    max-width: none;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh; /* Ensure the wrapper takes the full viewport height */
+    height: 85vh; /* Ensure the wrapper takes the full viewport height */
+    margin-right: 0px;
 }
 
 #wrapper h1 {
-  font-size: 28px;
+  font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
 }
 
 #wrapper h2 {
-  font-size: 20px;
+  font-size: 28px;
   line-height: 24px;
-  margin-bottom: 30px;
 }
 
 #heading{

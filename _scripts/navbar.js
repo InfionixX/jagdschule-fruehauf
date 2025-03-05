@@ -35,6 +35,25 @@ function createNavBarToggle(){
                 navbarCollapse.classList.remove('bg-green');
             }
         });
+
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 991) {
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarToggler.click();
+                }
+                navbar.classList.remove('bg-green');
+                navbarCollapse.classList.remove('bg-green');
+            }
+        });
+
+        // Change navbar background color on scroll
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > headingSection.offsetHeight) {
+                navbar.classList.add('bg-colored');
+            } else {
+                navbar.classList.remove('bg-colored');
+            }
+        });
     });
 }
 
