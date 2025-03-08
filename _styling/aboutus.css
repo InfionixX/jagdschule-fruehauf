@@ -9,6 +9,7 @@
     justify-self: center;
     height: 100%;
     width: 100%;
+    margin-bottom: 20%;
 }
 
 .image-wrapper {
@@ -58,4 +59,59 @@
     width: 180px;
 }
 
-/* End of _styling/aboutus.css */
+/* End of Logo Styling */
+
+/* About Us Section */
+
+#AboutUs{
+    width: 100%;
+    margin-top: 10%;
+    height: 140vh;
+}
+
+.about-us-parent{
+    position: absolute;
+    margin: 0;
+    height: 130vh;
+    width: 100%;
+    background-color: #265a28b0;
+}
+
+.team-container{
+    position: relative;
+    background-color: #334335;
+    top: -150px;
+    height: 40vh;
+    padding-top: 2%;
+}
+
+.team-container h1{
+    color: #79794C;
+    justify-self: center;
+}
+
+.profile-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 100%;
+    gap: 5%;
+}
+
+.profile-row .card{
+    background-color: transparent;
+}
+
+
+.about-us-container{
+    position: relative;
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+.about-us-container h1{
+    color: #FEF6B5;
+}
