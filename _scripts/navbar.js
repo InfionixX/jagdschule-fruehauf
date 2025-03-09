@@ -5,14 +5,24 @@ function createNavBarToggle(){
         var navbar = document.querySelector('.navbar');
         var navbarCollapse = document.querySelector('.navbar-collapse');
         var navLinks = document.querySelectorAll('.nav-link');
+        var headingSection = document.getElementById('heading');
+        var clicked = false;
 
         navbarToggler.addEventListener('click', function() {
-            if (navbar.classList.contains('bg-green')) {
-                navbar.classList.remove('bg-green');
+            if (navbar.classList.contains('bg-green') && clicked) {
+                if(window.scrollY < headingSection.offsetHeight){
+                    navbar.classList.remove('bg-green');
+                }
                 navbarCollapse.classList.remove('bg-green');
-            } else {
-                navbar.classList.add('bg-green');
-                navbarCollapse.classList.add('bg-green');
+                clicked = false;
+            } else if(!clicked){
+                if(!navbar.classList.contains('bg-green')){
+                    navbar.classList.add('bg-green');
+                }
+                if(!navbarCollapse.classList.contains('bg-green')){
+                    navbarCollapse.classList.add('bg-green');
+                }
+                clicked = true;
             }
         });
 
@@ -31,8 +41,10 @@ function createNavBarToggle(){
                 if (navbarCollapse.classList.contains('show')) {
                     navbarToggler.click();
                 }
-                navbar.classList.remove('bg-green');
-                navbarCollapse.classList.remove('bg-green');
+                if (navbarCollapse.classList.contains('show')) {
+                    navbar.classList.remove('bg-green');
+                    navbarCollapse.classList.remove('bg-green');
+                }
             }
         });
 
@@ -41,17 +53,22 @@ function createNavBarToggle(){
                 if (navbarCollapse.classList.contains('show')) {
                     navbarToggler.click();
                 }
-                navbar.classList.remove('bg-green');
-                navbarCollapse.classList.remove('bg-green');
+                if(window.scrollY < headingSection.offsetHeight){
+                    navbar.classList.remove('bg-green');
+                    navbarCollapse.classList.remove('bg-green');
+                }
+                
             }
         });
 
         // Change navbar background color on scroll
         window.addEventListener('scroll', function() {
             if (window.scrollY > headingSection.offsetHeight) {
-                navbar.classList.add('bg-colored');
-            } else {
-                navbar.classList.remove('bg-colored');
+                navbar.classList.add('bg-green');
+                navbarCollapse.classList.add('bg-green');
+            } else if(!navbarCollapse.classList.contains('show')){
+                navbar.classList.remove('bg-green');
+                navbarCollapse.classList.remove('bg-green');
             }
         });
     });

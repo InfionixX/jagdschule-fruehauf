@@ -1,5 +1,7 @@
 body {
     background-color: #f7e7d6;
+    box-sizing: unset;
+    width: 100vw;
 }
 
 *{
