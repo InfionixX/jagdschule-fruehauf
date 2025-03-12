@@ -177,6 +177,10 @@
     color: #fff;
   }
 
+  .about-text>h1{
+    font-weight: 700;
+  }
+
   .AbmoutMeImg{
     object-fit: cover;
     height: 80%;
@@ -202,7 +206,12 @@
 
   .bi-check2-circle{
     stroke-width: 5px;
-    color: #ff0000;
+    color: transparent;
+    height: 15vh;
+    width: 15vw;
+    margin-bottom: 5%;
   }
+
+  
 
   
