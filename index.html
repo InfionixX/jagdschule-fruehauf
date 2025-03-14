@@ -6,9 +6,13 @@
     <title>Jagdschule Frühauf</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <link rel="icon" type="image/x-icon" href="_assets/_favicon/favicon.ico">
+
     <link rel="stylesheet" href="_styling/global.css">
     <link rel="stylesheet" href="_styling/heading.css">
     <link rel="stylesheet" href="_styling/aboutus.css">
+    <link rel="stylesheet" href="_styling/training.css">
 
     <script src="_scripts/navbar.js"></script>
 </head>
@@ -96,7 +100,6 @@
                         <h1>Hier zählen praxiserprobte Werte</h1>
                         <p>„Tradition trifft Erfahrung – Ihre Jagd beginnt hier. </p>
                         <p>Werden Sie Teil einer überlieferten Kunst, die Respekt vor Natur und Wild verbindet.“</p>
-                        <a class="btn-logo-start btn btn-primary btn-lg" href="#AboutUs">Erfahren Sie mehr!</a>
                     </div>
   
             </div>
@@ -141,39 +144,38 @@
 
             </div>
             <div class="container about-us-container position-relative mt-5 col-md-12">
-              <div class="row">
-                  <div class="row">
-                      <div class="col-lg-5">
+              <div class="row about-us-row">
+                      <div class="col-sm-5">
                           <div class="about-thum">
                               <img class="AbmoutMeImg img-fluid" src="_assets/_pictures/P1010061.jpeg">
                           </div>
                       </div>
-                      <div class="col-lg-7">
+                      <div class="col-sm-7 about-us-content-wrapper">
                           <div class="sectionheading-light">
                               <h1>Über Uns</h1>
                           </div>
                           <div class="about-text">
-                            <h1>Wer erfolgreich jagen will, muss "Frühauf" stehen.</h1>
+                            <h1 class="about-heading">Wer erfolgreich jagen will, muss "Frühauf" stehen.</h1>
                               <p>
                                 Wir haben das, was uns begeistert, zu unserem Beruf gemacht. Jagd und Waffen sind unsere Leidenschaft, und alles, was damit zusammenhängt, liegt uns am Herzen.
                               </p>
                               <p>
                                 In unserer Jagdschule möchten wir Ihnen das Wissen und die praktische Erfahrung weitergeben, die wir über Jahrzehnte gesammelt haben.
                               </p>     
-                              <div class="row sectionheading-light">
+                              <div class="row sectionheading-light card-row">
                                 <h4>Unsere Kompetenzen:</h4>
                                 <div class="container value-container">
-                                  <div class="card text-center value-card" style="width: 18rem;">
+                                  <div class="card text-center value-card" style="width: 15rem; height: 15rem;">
                                     <div class="card-body">
                                       <svg fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                        <path stroke="#ff0000" stroke-width="0.2px" d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
-                                        <path stroke="#ff0000" stroke-width="0.2px" d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+                                        <path stroke="#000000" stroke-width="0.2px" d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                                        <path stroke="#000000" stroke-width="0.2px" d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
                                       </svg>
                                       <h5 class="card-title">praxisnahe Ausbildung</h5>
                                     </div>
                                   </div>
 
-                                  <div class="card text-center value-card" style="width: 18rem;">
+                                  <div class="card text-center value-card" style="width: 15rem; height: 15rem;">
                                     <div class="card-body">
                                       <svg  fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
                                         <path stroke="#ff0000" stroke-width="0.2px" d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
@@ -183,11 +185,11 @@
                                     </div>
                                   </div>
 
-                                  <div class="card text-center value-card" style="width: 18rem;">
+                                  <div class="card text-center value-card" style="width: 15rem; height: 15rem;">
                                     <div class="card-body">
                                       <svg fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                                        <path stroke="#ff0000" stroke-width="0.2px" d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
-                                        <path stroke="#ff0000" stroke-width="0.2px" d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+                                        <path stroke="#FEF6B5" stroke-width="0.2px" d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                                        <path stroke="#FEF6B5" stroke-width="0.2px" d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
                                       </svg>
                                       <h5 class="card-title">Vielfach erprobtes Ausbildungskonzept</h5>
                                     </div>
@@ -196,9 +198,34 @@
                               </div>
                           </div>
                       </div>
-                  </div>
+                  
               </div>
           </div>
+    </section>
+
+    <section id="Ausbildung">
+      <div class="container row training-row">
+        <div class="training-content-container">
+          <div class="sectionheading-dark">
+            <h1>Unsere Ausbildung</h1>
+          </div>
+          <div class="training-text">
+            <h2>"Qualität statt Quantität"</h2>
+            <p class="styled-paragraph">
+              Zusammen mit Partnern bieten wir Ihnen noch viel mehr als „nur“ 
+              Ausbildung, denn auch nach dem Bestehen der Jagdprüfung sind wir für Sie da!
+            </p>
+  
+            <p class="styled-paragraph">
+              Moderne Ausbildungsmethoden gepaart mit den traditionellen 
+              Werten der Jagd, so verstehen wir Jagdschule.
+            </p>
+          </div>  
+        </div>
+        <div class="training-carousel-conteiner">
+
+        </div>
+      </div>
     </section>
 
     <!--Bewertungselemente-->

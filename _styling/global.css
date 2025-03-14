@@ -1,7 +1,7 @@
 body {
     background-color: #f7e7d6;
     box-sizing: unset;
-    width: 100vw;
+    margin: 0;
 }
 
 *{
@@ -20,7 +20,7 @@ body {
 
 .sectionheading-light>h1{
     color: #FEF6B5;
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 700;
   }
 
@@ -38,6 +38,35 @@ body {
 
   .sectionheading-light>h4{
     color: #FEF6B5;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .styled-paragraph{
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+
+  .sectionheading-dark>h1{
+    color: #235021;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .sectionheading-dark>h2{
+    color: #FEF6B5;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .sectionheading-dark>h3{
+    color: #FEF6B5;
     font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .sectionheading-dark>h4{
+    color: #FEF6B5;
+    font-size: 2rem;
     font-weight: 700;
   }

@@ -1,0 +1,30 @@
+#Ausbildung{
+    height: 100vh;
+}
+
+.training-row{
+    height: 100%;
+    width: 100%;
+}
+
+.training-content-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    justify-content: start;
+    padding-left: 10%;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.training-text{
+    color: black;
+}
+
+.training-text h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    font-weight: 700;
+}

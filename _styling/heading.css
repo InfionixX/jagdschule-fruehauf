@@ -38,7 +38,7 @@
     align-self: center;
     z-index: 0;
     width: 100vw;
-    padding-left: 30%;
+    padding-left: 25%;
     padding-right: 0%;
     margin-right: 13%;
   }
@@ -130,6 +130,7 @@
       gap: 0px;
       row-gap: 0px;
       box-sizing: unset;
+      padding: 0px;
     }
     
 .navbar-brand{
