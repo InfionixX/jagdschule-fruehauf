@@ -44,7 +44,7 @@ body {
 
   .styled-paragraph{
     margin-top: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .sectionheading-dark>h1{
@@ -54,19 +54,34 @@ body {
   }
 
   .sectionheading-dark>h2{
-    color: #FEF6B5;
+    color: #235021;
     font-size: 2rem;
     font-weight: 700;
   }
 
   .sectionheading-dark>h3{
-    color: #FEF6B5;
+    color: #235021;
     font-size: 1.5rem;
     font-weight: 700;
   }
 
   .sectionheading-dark>h4{
-    color: #FEF6B5;
+    color: #235021;
     font-size: 2rem;
     font-weight: 700;
+  }
+
+  .cardtitel-dark{
+    color: #41653B;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .cardtext-grey{
+    color: #828282;
+    font-size: 1rem;
+  }
+
+  .transparent-bg{
+    background-color: transparent;
   }

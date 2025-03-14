@@ -16,10 +16,12 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    padding-right: 10%;
 }
 
 .training-text{
     color: black;
+    
 }
 
 .training-text h2{
@@ -27,4 +29,108 @@
     margin-bottom: 5%;
     font-size: 3rem;
     font-weight: 700;
+}
+
+.card-header{
+    background-color: #f7e7d6;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#headingOne{
+    border-top: 1px solid black;
+    border-bottom: 0px;
+}
+
+#headingTwo{
+    border-top: 1px solid black;
+    border-bottom: 0px;
+}
+
+.collapse .card-body{
+    background-color: #f7e7d6;
+}
+
+.training-carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#carouselTrainingContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.carousel-image-wrapper{
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+}
+
+.carousel-image-wrapper img{
+    max-height: 80%;
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.centered-carousel-content{
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.carousel-item .card{
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.centered-cardbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.card-body .cardtitel-dark{
+    justify-self: center;
+    font-size: 1.5rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  background-size: 100%, 100%;
+  background-image: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 2rem;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 2rem;
+  color: black;
 }
