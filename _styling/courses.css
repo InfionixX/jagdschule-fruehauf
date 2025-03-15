@@ -2,6 +2,31 @@
     margin-right: 3%;
 }
 
-.course-container-2{
+.course-container{
     margin-top: 5%;
+}
+
+.course-backround-light{
+    background-color: #265a28b0;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+.course-backround-dark{
+    background-color: #334335;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding-left: 2%;
+}
+
+.course-icon{
+    color: red;
+    width: 4vw;
+    height: 4vh;
+}
+
+.course-image{
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
 }

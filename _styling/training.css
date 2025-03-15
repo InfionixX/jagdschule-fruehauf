@@ -10,7 +10,7 @@
 .training-content-container{
     display: flex;
     flex-direction: column;
-    padding-top: 10%;
+    padding-top: 6%;
     justify-content: start;
     padding-left: 10%;
     height: 100%;
@@ -138,3 +138,75 @@
   font-size: 2rem;
   color: black;
 }
+
+.accordion-container{
+    width: 100%;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+#accordionTraining{
+    width: 100%;
+    left: 0;
+}
+
+.collapse{
+    background-color: transparent;
+}
+
+.collapsing{
+    background-color: #f7e7d6;
+}
+
+.card-header{
+    display: block;
+    background-color: #f7e7d6;
+}
+
+.collapse .card-body{
+    background-color: #f7e7d6;
+}
+
+.accordionTraining .card{
+    background-color: #f7e7d6;
+}
+
+.accordionTraining .card .card-header{
+    background-color: #f7e7d6;
+    border-top: 1px black solid;
+
+}
+
+.collapsible-link::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 1rem;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  /* Vertical line */
+  .collapsible-link::after {
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: calc(1rem + 6px);
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  .collapsible-link[aria-expanded='true']::after {
+    transform: rotate(90deg) translateX(-1px);
+  }
+  
+  .collapsible-link[aria-expanded='true']::before {
+    transform: rotate(180deg);
+  }
