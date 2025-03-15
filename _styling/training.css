@@ -52,6 +52,10 @@
     border-bottom: 0px;
 }
 
+#accordion .card{
+    background-color: #f7e7d6;
+}
+
 .collapse .card-body{
     background-color: #f7e7d6;
 }

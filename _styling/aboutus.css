@@ -132,19 +132,6 @@
     color: #fff;
 }
 
-.image-wrapper{
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    justify-content: center;
-}
-
-.image-wrapper img{
-    object-fit: fill;
-    border-radius: 100%;
-}
-
 .card-body{
     padding-top: 0;
 }
