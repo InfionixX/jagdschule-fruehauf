@@ -1,0 +1,340 @@
+#Course_2{
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(38, 90, 40, 0.69) 35%);
+    padding: 0;
+}
+
+.courserow{
+  padding: 0;
+  width: 100vw;
+}
+
+.control-row{
+  padding: 0;
+  width: 100vw;
+  height: 10%;
+  justify-content: center;
+  z-index: 100;
+}
+
+.courseImageWrapper{
+  height: 100vh;
+  width: 40vw;
+  z-index: -1;
+}
+
+.courseimage{
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.course-content{
+  padding-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.course-heading{
+  color: orange;
+}
+
+.course-icon{
+  color: orange;
+  width: 4vw;
+  height: 4vh;
+}
+
+.course-price{
+  color: orange;
+}
+
+.pricerow{
+  padding-top: 50px;
+}
+
+/*Course Toggler*/
+
+.jumbotron {border-radius: 0;margin-bottom: 0; padding-top: 0;}
+
+.jumbotron.df-bg-primary {
+  background-color: transparent;
+}
+
+.df-switch {
+  margin-top: 20px;
+  padding: 2rem;
+  text-align: center;
+}
+.btn-toggle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-toggle {
+  margin: 0 4rem;
+  padding: 0;
+  position: relative;
+  border: none;
+  height: 1.5rem;
+  width: 5rem;
+  border-radius: 1.5rem;
+  color: #6b7381;
+  background: orange;
+}
+.btn-toggle:focus,
+.btn-toggle.focus,
+.btn-toggle:focus.active,
+.btn-toggle.focus.active {
+  outline: none;
+}
+.btn-toggle:before,
+.btn-toggle:after {
+  line-height: 1.5rem;
+  width: 4rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  transition: opacity 0.25s;
+}
+.btn-toggle:before {
+  content: 'Gruppenkurs';
+  left: -5rem;
+  color: orange;
+}
+.btn-toggle:after {
+  content: 'Individualkurs';
+  right: -5rem;
+  opacity: 0.5;
+  color: red;
+}
+.btn-toggle > .inner-handle {
+  border-radius: 13px;
+  width: 65px;
+  height: 13px;
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  background-color: rgb(184, 119, 0);
+  box-shadow: inset 1px 1px 2px -1px black;
+}
+.btn-toggle.active > .inner-handle {
+  background-color: rgb(158, 0, 0);
+}
+.btn-toggle > .handle:before {
+  content: "";
+  position: absolute;
+  height: 34px;
+  width: 34px;
+  top: 35%;
+  left: 11px;
+  background-image: radial-gradient(circle at center, orange 5px, transparent 5px);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+}
+.btn-toggle.active > .handle:before {
+  background-image: radial-gradient(circle at center, rgb(255, 0, 0) 5px, transparent 5px);
+}
+.btn-toggle > .handle {
+  position: absolute;
+  top: -0.2875rem;
+  left: 0.3875rem;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 1.125rem;
+  background: #fff;
+  transition: left 0.25s;
+  border: 1px solid #ccc;
+}
+.btn-toggle.active {
+  transition: background-color 0.25s;
+}
+.btn-toggle.active > .handle {
+  left: 2.4175rem;
+  transition: left 0.25s;
+}
+.btn-toggle.active:before {
+  opacity: 0.5;
+}
+.btn-toggle.active:after {
+  opacity: 1;
+  color: red;
+}
+.btn-toggle.active {
+  background-color: red;
+}
+ .btn-toggle.btn-lg {
+  z-index: 100;
+  margin: 0 5rem;
+  padding: 0;
+  position: relative;
+  border: none;
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: 2.5rem;
+}
+.btn-toggle.btn-lg:focus,
+.btn-toggle.btn-lg.focus,
+.btn-toggle.btn-lg:focus.active,
+.btn-toggle.btn-lg.focus.active {
+  outline: none;
+}
+.btn-toggle.btn-lg:before,
+.btn-toggle.btn-lg:after {
+  line-height: 2.5rem;
+  width: 5rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  transition: opacity 0.25s;
+}
+.btn-toggle.btn-lg:before {
+  content: 'Gruppenkurs';
+  left: -10rem;
+}
+.btn-toggle.btn-lg:after {
+  content: 'Infividualkurs';
+  right: -6rem;
+  opacity: 0.5;
+
+}
+.btn-toggle.btn-lg > .handle {
+  position: absolute;
+  top: 0.3125rem;
+  left: 0.3125rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 1.875rem;
+  background: #fff;
+  transition: left 0.25s;
+}
+.btn-toggle.btn-lg.active {
+  transition: background-color 0.25s;
+}
+.btn-toggle.btn-lg.active > .handle {
+  left: 2.8125rem;
+  transition: left 0.25s;
+}
+.btn-toggle.btn-lg.active:before {
+  opacity: 0.5;
+}
+.btn-toggle.btn-lg.active:after {
+  opacity: 1;
+} 
+
+/*End Course Toggler*/
+
+
+.download-link {
+  background: transparent;
+  border-radius: 2px;
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.download-link span {
+  background: orange;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 5px 10px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.download-link span:last-child {
+  margin-left: -20px;
+}
+
+.download-link:before,
+.download-link:after {
+  background: transparent;
+  border: solid 3px #9fb4cc;
+  border-radius: 4px;
+  content: '';
+  display: block;
+  height: 35px;
+  left: 50%;
+  margin: -17px 0 0 -12px;
+  position: absolute;
+  top: 50%;
+  /*transform:translate(-50%,-50%);*/
+  
+  width: 25px;
+}
+
+.download-link:hover:before,
+.download-link:hover:after {
+  background: transparent;
+}
+/*a:before{transform:translate(-30%,-60%);}*/
+
+.download-link:before {
+  margin: -23px 0 0 -5px;
+}
+
+.download-link:hover {
+  background: transparent;
+  border-color: #9fb4cc;
+}
+
+.download-link:active {
+  background: #dae0e8;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, .25);
+}
+
+.download-link span:first-child {
+  display: none;
+}
+
+.download-link:hover span:first-child {
+  display: inline-block;
+}
+
+.download-link:hover span:last-child {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  #Course_2{
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(38, 90, 40, 0.69) 30%);
+}
+}
+  
+@media (max-width: 768px) {
+
+  .control-row{
+    padding: 0;
+    width: 100vw;
+    height: 10%;
+    justify-content: end;
+  }
+
+  .btn-toggle:after {
+    content: 'Individualkurs';
+    right: -5rem;
+    opacity: 0.5;
+    color: red;
+    display: none;
+  }
+}

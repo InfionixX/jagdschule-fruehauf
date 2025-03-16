@@ -71,6 +71,11 @@ body {
     font-weight: 700;
   }
 
+  h5{
+    font-size: larger;
+    color: white;
+  }
+
   .cardtitel-dark{
     color: #41653B;
     font-size: 1rem;
@@ -85,3 +90,16 @@ body {
   .transparent-bg{
     background-color: transparent;
   }
+
+  .overlay{
+    position: absolute;
+    z-index: 1;
+  }
+
+  @media (max-width: 991px) {
+
+  }
+    
+    @media (max-width: 768px) {
+    
+    }

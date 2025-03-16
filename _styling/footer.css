@@ -11,3 +11,11 @@ footer{
 .footer-nav-item>a{
     color: white;
 }
+
+@media (max-width: 991px) {
+
+}
+  
+  @media (max-width: 768px) {
+  
+  }
