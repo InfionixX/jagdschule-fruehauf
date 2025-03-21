@@ -150,11 +150,6 @@
     width: 100%;
     left: 0;
 }
-
-.collapse{
-    background-color: transparent;
-}
-
 .collapsing{
     background-color: #f7e7d6;
 }
