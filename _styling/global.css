@@ -47,6 +47,19 @@ body {
     font-size: 1.5rem;
   }
 
+  .styled-paragraph-small{
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .txt-light{
+    color: #DCD7C9;
+  }
+
+  .styled-h2-light{
+    color:#FEF6B5;
+  }
+
   .sectionheading-dark>h1{
     color: #235021;
     font-size: 4rem;
