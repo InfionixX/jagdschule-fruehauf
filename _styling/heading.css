@@ -228,6 +228,7 @@
     flex-direction: row;
     box-sizing: unset;
     transition: none;
+    height: 10vh;
   }
 
   .navbar-nav{
