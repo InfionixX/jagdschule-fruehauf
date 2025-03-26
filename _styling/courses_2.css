@@ -11,10 +11,18 @@
 }
 
 #Course_2{
-    height: 100vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #3F4F44 35%);
+    height: fit-content;
     padding: 0;
+}
+
+.individual{
+  background: rgb(255,255,255);
+  background: linear-gradient(270deg, rgba(255,255,255,0) 0%, #3F4F44 35%);
+}
+
+.group{
+  background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #3F4F44 35%);
 }
 
 .courserow{
@@ -42,208 +50,50 @@
   width: 100%;
 }
 
-.course-content{
-  padding-top: 10%;
+.course-content-group{
+  padding-top: 5%;
   width: 100%;
   height: 100%;
 }
 
-.course-heading{
+.course-content-individual{
+  padding-top: 5%;
+  padding-left: 8%;
+  width: 100%;
+  height: 100%;
+}
+
+.course-heading-group{
   color: orange;
 }
 
-.course-icon{
+.course-heading-individual{
+  color: red;
+}
+
+.course-icon-group{
   color: orange;
   width: 4vw;
   height: 4vh;
 }
 
-.course-price{
+.course-icon-individual{
+  color: red;
+  width: 4vw;
+  height: 4vh;
+}
+
+.course-price-group{
   color: orange;
+}
+
+.course-price-indivdual{
+  color: red;
 }
 
 .pricerow{
   padding-top: 50px;
 }
-
-/*Course Toggler*/
-
-.jumbotron {border-radius: 0;margin-bottom: 0; padding-top: 0;}
-
-.jumbotron.df-bg-primary {
-  background-color: transparent;
-}
-
-.df-switch {
-  margin-top: 20px;
-  padding: 2rem;
-  text-align: center;
-}
-.btn-toggle {
-  top: 50%;
-  transform: translateY(-50%);
-}
-.btn-toggle {
-  margin: 0 4rem;
-  padding: 0;
-  position: relative;
-  border: none;
-  height: 1.5rem;
-  width: 5rem;
-  border-radius: 1.5rem;
-  color: #6b7381;
-  background: orange;
-}
-.btn-toggle:focus,
-.btn-toggle.focus,
-.btn-toggle:focus.active,
-.btn-toggle.focus.active {
-  outline: none;
-}
-.btn-toggle:before,
-.btn-toggle:after {
-  line-height: 1.5rem;
-  width: 4rem;
-  text-align: center;
-  font-weight: 600;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  position: absolute;
-  bottom: 0;
-  transition: opacity 0.25s;
-}
-.btn-toggle:before {
-  content: 'Gruppenkurs';
-  left: -5rem;
-  color: orange;
-}
-.btn-toggle:after {
-  content: 'Individualkurs';
-  right: -5rem;
-  opacity: 0.5;
-  color: red;
-}
-.btn-toggle > .inner-handle {
-  border-radius: 13px;
-  width: 65px;
-  height: 13px;
-  position: absolute;
-  top: 6px;
-  left: 8px;
-  background-color: rgb(184, 119, 0);
-  box-shadow: inset 1px 1px 2px -1px black;
-}
-.btn-toggle.active > .inner-handle {
-  background-color: rgb(158, 0, 0);
-}
-.btn-toggle > .handle:before {
-  content: "";
-  position: absolute;
-  height: 34px;
-  width: 34px;
-  top: 35%;
-  left: 11px;
-  background-image: radial-gradient(circle at center, orange 5px, transparent 5px);
-  background-size: 10px 10px;
-  background-repeat: no-repeat;
-}
-.btn-toggle.active > .handle:before {
-  background-image: radial-gradient(circle at center, rgb(255, 0, 0) 5px, transparent 5px);
-}
-.btn-toggle > .handle {
-  position: absolute;
-  top: -0.2875rem;
-  left: 0.3875rem;
-  width: 2.125rem;
-  height: 2.125rem;
-  border-radius: 1.125rem;
-  background: #fff;
-  transition: left 0.25s;
-  border: 1px solid #ccc;
-}
-.btn-toggle.active {
-  transition: background-color 0.25s;
-}
-.btn-toggle.active > .handle {
-  left: 2.4175rem;
-  transition: left 0.25s;
-}
-.btn-toggle.active:before {
-  opacity: 0.5;
-}
-.btn-toggle.active:after {
-  opacity: 1;
-  color: red;
-}
-.btn-toggle.active {
-  background-color: red;
-}
- .btn-toggle.btn-lg {
-  z-index: 100;
-  margin: 0 5rem;
-  padding: 0;
-  position: relative;
-  border: none;
-  height: 2.5rem;
-  width: 5rem;
-  border-radius: 2.5rem;
-}
-.btn-toggle.btn-lg:focus,
-.btn-toggle.btn-lg.focus,
-.btn-toggle.btn-lg:focus.active,
-.btn-toggle.btn-lg.focus.active {
-  outline: none;
-}
-.btn-toggle.btn-lg:before,
-.btn-toggle.btn-lg:after {
-  line-height: 2.5rem;
-  width: 5rem;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  position: absolute;
-  bottom: 0;
-  transition: opacity 0.25s;
-}
-.btn-toggle.btn-lg:before {
-  content: 'Gruppenkurs';
-  left: -10rem;
-}
-.btn-toggle.btn-lg:after {
-  content: 'Infividualkurs';
-  right: -6rem;
-  opacity: 0.5;
-
-}
-.btn-toggle.btn-lg > .handle {
-  position: absolute;
-  top: 0.3125rem;
-  left: 0.3125rem;
-  width: 1.875rem;
-  height: 1.875rem;
-  border-radius: 1.875rem;
-  background: #fff;
-  transition: left 0.25s;
-}
-.btn-toggle.btn-lg.active {
-  transition: background-color 0.25s;
-}
-.btn-toggle.btn-lg.active > .handle {
-  left: 2.8125rem;
-  transition: left 0.25s;
-}
-.btn-toggle.btn-lg.active:before {
-  opacity: 0.5;
-}
-.btn-toggle.btn-lg.active:after {
-  opacity: 1;
-} 
-
-/*End Course Toggler*/
-
 
 .download-link {
   background: transparent;
@@ -259,7 +109,7 @@
 }
 
 .download-link span {
-  background: orange;
+  
   border-radius: 4px;
   color: #ffffff;
   display: inline-block;
@@ -270,6 +120,14 @@
   position: relative;
   text-transform: uppercase;
   z-index: 1;
+}
+
+.bg-group{
+  background: orange;
+}
+
+.bg-individual{
+  background: red;
 }
 
 .download-link span:last-child {
@@ -327,9 +185,9 @@
 
 @media (max-width: 991px) {
   #Course_2{
-    height: 100vh;
+    height: fit-content;
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(38, 90, 40, 0.69) 30%);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, #3F4F44 30%);
 }
 }
   
