@@ -183,28 +183,3 @@
   display: none;
 }
 
-@media (max-width: 991px) {
-  #Course_2{
-    height: fit-content;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, #3F4F44 30%);
-}
-}
-  
-@media (max-width: 768px) {
-
-  .control-row{
-    padding: 0;
-    width: 100vw;
-    height: 10%;
-    justify-content: end;
-  }
-
-  .btn-toggle:after {
-    content: 'Individualkurs';
-    right: -5rem;
-    opacity: 0.5;
-    color: red;
-    display: none;
-  }
-}

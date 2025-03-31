@@ -3,7 +3,7 @@ footer{
 }
 
 .footer-nav-item{
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 200;
     margin-right: 2%;
 }
@@ -12,8 +12,45 @@ footer{
     color: white;
 }
 
-@media (max-width: 991px) {
+.footer-link{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
 
+.footer-link:hover{
+    color: #235021;
+}
+
+.footer-social-row{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-list{
+    gap: 30px;
+}
+
+
+
+.footer-social-row a{
+    color: white;
+}
+
+.footer-social-row a:hover{
+    color: #235021;
+}
+
+@media (max-width: 991px) {
+    .footer-social-row{
+        margin-top: 5%;
+    }
+
+    .footer-nav-item{
+        margin-top: 35px;
+    }
 }
   
   @media (max-width: 768px) {
