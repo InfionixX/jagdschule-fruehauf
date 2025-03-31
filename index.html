@@ -854,11 +854,101 @@
         </div>
         <div class="pt-lg-4 pb-4 pb-lg-3 text-center small">
           <p class="mb-0">
-            <a class="d-block d-lg-inline mx-lg-1 mb-2 mb-lg-0 footer-link" href="">Datenschutzhinweis</a> 
-            <a class="d-block d-lg-inline mx-lg-1 mb-2 mb-lg-0 footer-link" href="">Impressum</a> 
-            <a class="d-block d-lg-inline mx-lg-1 mb-2 mb-lg-0 footer-link" href="">Kontakt</a>
+            <a class="d-block d-lg-inline mx-lg-1 mb-2 mb-lg-0 footer-link" onclick="openPopup('myDatenschutzhinweis')">Datenschutzhinweis</a> 
+            <a class="d-block d-lg-inline mx-lg-1 mb-2 mb-lg-0 footer-link" onclick="openPopup('myImpressum')">Impressum</a> 
+            <a class="d-block d-lg-inline mx-lg-1 mb-2 mb-lg-0 footer-link" onclick="openPopup('myContact')">Kontakt</a>
           </p>
           <p class=" mb-0">© 2025 Jagdschule-Frühauf All rights reserved.</p>
+
+            <!-- The Modal -->
+    <div id="myImpressum" class="modal footer-modal">
+      <!-- Modal Content -->
+      <div class="modal-content impressum-modal-content">
+          <span class="close" onclick="closePopup('myImpressum')">&times;</span>
+          <h1>Impressum</h1>
+          <p>
+              <strong>Angaben gemäß § 5 TMG</strong>
+          </p>
+          <address>
+              Jonas Kahle
+              <br>
+              Waisagrundstraße 23
+              <br>
+              98673 Crock
+              <br>
+              E-Mail:
+              <a href="mailto:jonaskahle@gmx.de">jonaskahle@gmx.de</a>
+          </address>
+          <p>
+              <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong>
+          </p>
+          <address>
+              Jonas Kahle 
+              <br>
+              Waisagrundstraße 23, 98673 Crock
+          </address>
+      </div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myContact" class="modal footer-modal">
+    <!-- Modal Content -->
+    <div class="modal-content contact-modal-content">
+        <span class="close" onclick="closePopup('myContact')">&times;</span>
+        <h1>Kontakt</h1>
+        <p>
+            <strong>Angaben gemäß § 5 TMG</strong>
+        </p>
+        <address>
+            Jonas Kahle
+            <br>
+            Waisagrundstraße 23
+            <br>
+            98673 Crock
+            <br>
+            E-Mail:
+            <a href="mailto:jonaskahle@gmx.de">jonaskahle@gmx.de</a>
+        </address>
+        <p>
+            <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong>
+        </p>
+        <address>
+            Jonas Kahle 
+            <br>
+            Waisagrundstraße 23, 98673 Crock
+        </address>
+    </div>
+</div>
+
+<!-- The Modal -->
+<div id="myDatenschutzhinweis" class="modal footer-modal">
+  <!-- Modal Content -->
+  <div class="modal-content Datenschutzhinweis-modal-content">
+      <span class="close" onclick="closePopup('myDatenschutzhinweis')">&times;</span>
+      <h1>Datenschutzhinweis</h1>
+      <p>
+          <strong>Angaben gemäß § 5 TMG</strong>
+      </p>
+      <address>
+          Jonas Kahle
+          <br>
+          Waisagrundstraße 23
+          <br>
+          98673 Crock
+          <br>
+          E-Mail:
+          <a href="mailto:jonaskahle@gmx.de">jonaskahle@gmx.de</a>
+      </address>
+      <p>
+          <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong>
+      </p>
+      <address>
+          Jonas Kahle 
+          <br>
+          Waisagrundstraße 23, 98673 Crock
+      </address>
+  </div>
+</div>
         </div>
       </div>
     </footer>
