@@ -129,6 +129,7 @@
       z-index: 2;
       gap: 0px;
       row-gap: 0px;
+      max-width: 100%;
       box-sizing: unset;
       padding: 0px;
     }

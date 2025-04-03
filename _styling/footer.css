@@ -3,7 +3,7 @@ footer{
 }
 
 .footer-nav-item{
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 200;
     margin-right: 2%;
 }
@@ -12,8 +12,227 @@ footer{
     color: white;
 }
 
-@media (max-width: 991px) {
+.footer-link{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
 
+.footer-link:hover{
+    color: #235021;
+    cursor: pointer;
+}
+
+.footer-social-row{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-list{
+    gap: 30px;
+}
+
+.footer-social-row a{
+    color: white;
+}
+
+.footer-social-row a:hover{
+    color: #235021;
+    cursor: pointer;
+}
+
+.impressum-container{
+    background-color: black;
+  }
+
+  .impressum-container>button{
+    background-color: black;
+    border: 0px;
+    color: #aaa;
+    text-align: left;
+    padding: 0px;
+  }
+
+  .impressum-container>button:hover{
+    color: white;
+    animation: fade;
+    animation-duration: 1s;
+    text-align: left;
+  }
+
+  .footer-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto;
+    background-color: rgba(63, 62, 62, 0.4);
+    animation: fade;
+    animation-duration: 1s;
+  }
+  .footer-modal>div{
+    background-color: #DCD7C9;
+    color: black;
+  }
+  
+  /* Modal Content */
+  .impressum-modal-content {
+      display: flex;
+      color: azure;
+      margin: 10% 30%;
+      padding: 20px;
+      border: 1px solid #888;
+      max-width: 40%; /* Adjust the width */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+  }
+
+  .contact-modal-content{
+    display: flex;
+      color: azure;
+      margin: 10% 30%;
+      padding: 20px;
+      border: 1px solid #888;
+      max-width: 40%; /* Adjust the width */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+  }
+
+  .contact-modal-content>h1{
+    align-self: center;
+    margin-bottom: 5%;
+    color: #235021;
+  }
+
+  .Datenschutzhinweis-modal-content>h1{
+    align-self: center;
+    margin-bottom: 5%;
+    color: #235021;
+  }
+
+  .Datenschutzhinweis-modal-content{
+    display: flex;
+      color: azure;
+      margin: 10% 30%;
+      padding: 20px;
+      border: 1px solid #888;
+      max-width: 40%; /* Adjust the width */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+  }
+  
+  .impressum-modal-content>ol{
+    padding-left: 50px;
+  }
+  
+  .impressum-modal-content>ol>li{
+    color: #235021; 
+    padding-left: 16px;
+    margin-top: 24px;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    
+    &:before {
+      content: '';
+      display: block;
+      height: 42px;
+      width: 42px;
+      border-radius: 50%;
+      border: 2px solid #ddd;
+      position: absolute;
+      top: -9px;
+      left: -32px;
+      margin-bottom: 30px;
+  }
+  }
+  ol.alternating-colors { 
+    li:nth-child(odd):before { border-color: #0BAD02; }
+    li:nth-child(even):before { border-color: #2378D5; }
+  }
+  
+  @media (max-width: 1452px){
+    .impressum-modal-content {
+      max-width: 80%;
+      margin: 15% 10%;
+    }
+    .content-row{
+      flex-direction: row;
+    }
+  }
+  
+  @media (max-width: 996px)
+  {
+    
+    .content-row{
+      align-items: start;
+      padding-left: 0px;
+      flex-direction: column;
+    }
+  
+  }
+  
+  
+  @media (max-width: 575px) {
+  
+    .impressum-modal-content>ol{
+      padding-left: 0px;
+    }
+  
+    .impressum-modal-content>ol>li{
+      list-style-type: none;
+      padding-left: 0px;
+    }
+  
+    ol.alternating-colors { 
+      li:nth-child(odd):before { border-color: transparent; }
+      li:nth-child(even):before { border-color: transparent; }
+    }
+  
+    .content-row{
+      padding-left: 0px;
+    }
+  }
+  
+  .impressum-modal-content>h1{
+    align-self: center;
+    margin-bottom: 5%;
+    color: #235021;
+  }
+  
+  /* The Close Button */
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+      color: white;
+      text-decoration: none;
+  }
+
+@media (max-width: 991px) {
+    .footer-social-row{
+        margin-top: 5%;
+    }
+
+    .footer-nav-item{
+        margin-top: 35px;
+    }
+
+    .impressum-container{
+        text-align: center;
+        padding-top: 20px;
+      }
 }
   
   @media (max-width: 768px) {
