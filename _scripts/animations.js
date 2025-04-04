@@ -30,6 +30,38 @@ document.addEventListener("DOMContentLoaded", function () {
     checkVisibility();
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const fadeElements = document.querySelectorAll(".fade-in-course");
+
+  function checkVisibility() {
+      fadeElements.forEach((element) => {
+          const rect = element.getBoundingClientRect();
+          if (rect.top < window.innerHeight * 0.85) {
+                  element.classList.add("visible");
+          }
+      });
+  }
+
+  window.addEventListener("scroll", checkVisibility);
+  checkVisibility();
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const fadeElements = document.querySelectorAll(".fade-in-testimonials");
+
+  function checkVisibility() {
+      fadeElements.forEach((element) => {
+          const rect = element.getBoundingClientRect();
+          if (rect.top < window.innerHeight * 0.85) {
+                  element.classList.add("visible");
+          }
+      });
+  }
+
+  window.addEventListener("scroll", checkVisibility);
+  checkVisibility();
+});
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const profiles = document.querySelectorAll(".profile");

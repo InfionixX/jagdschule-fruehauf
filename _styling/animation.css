@@ -26,6 +26,28 @@
     transform: translateY(0);
 }
 
+.fade-in-course {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-course.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in-testimonials {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-testimonials.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .profile {
     opacity: 0;
     transform: translateY(30px);

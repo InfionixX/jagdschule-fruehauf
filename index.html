@@ -531,7 +531,7 @@
 
 
     <section id="Bewertungen" class="testimonial">
-        <div class="container">
+        <div class="container fade-in-testimonials">
             <div class="row">
                 <div class="col-lg-6 d-none d-lg-block">
                     <ol class="carousel-indicators tabs">
@@ -655,12 +655,12 @@
           <p class="styled-paragraph text-dark">Welcher Kurs passt besser zu dir?</p>     
         </div>
     
-        <article class="postcard dark green">
-          <a class="postcard__img_link" href="#">
+        <article class="postcard dark green fade-in-course">
+          <a class="postcard__img_link">
             <img class="postcard__img" src="_assets/_pictures/IMG_7770.jpg" alt="Image Title" />	
           </a>
           <div class="postcard__text">
-            <h1 class="postcard__title red"><a href="#">🌲 Der dynamische Gruppenkurs</a></h1>
+            <h1 class="postcard__title red"><a>🌲 Der dynamische Gruppenkurs</a></h1>
             <div class="postcard__bar"></div>
             <div class="postcard__preview-txt"> Hier lernst du gemeinsam mit anderen in einer motivierenden Atmosphäre. Profitiere vom Austausch mit Gleichgesinnten, gemeinsamen Übungen und einem spannenden Lernerlebnis, das von der Gruppendynamik lebt. Zusammen macht Lernen einfach mehr Spaß!</div>
             <ul class="postcard__tagbox">
@@ -759,12 +759,12 @@
             </ul>
           </div>
         </article>
-        <article class="postcard dark red">
-          <a class="postcard__img_link" href="#">
+        <article class="postcard dark red fade-in-course">
+          <a class="postcard__img_link">
             <img class="postcard__img" src="_assets/_pictures/IMG_7765.jpg" alt="Image Title" />
           </a>
           <div class="postcard__text">
-            <h1 class="postcard__title green"><a href="#">🔥 Der Exklusive-Individualkurs </a></h1>
+            <h1 class="postcard__title green"><a>🔥 Der Exklusive-Individualkurs </a></h1>
             <div class="postcard__bar"></div>
             <div class="postcard__preview-txt">Perfekt für alle, die eine maßgeschneiderte 1:1-Betreuung bevorzugen. Hier steht deine persönliche Entwicklung im Fokus, mit individuell angepassten Inhalten und maximaler Flexibilität.</div>
             <ul class="postcard__tagbox">
@@ -884,7 +884,7 @@
                           <div class="row align-items-lg-center justify-content-center h-100">
                             <div class="col-11 col-xl-10">
                               <div class="contact-info-wrapper py-4 py-xl-5">
-                                <h2 class="h1 mb-3 text-light">Schreiben Sie uns an</h2>
+                                <h2 class="h1 mb-3 text-light">Schreib uns an</h2>
                                 <p class="lead fs-4 text-light opacity-75 mb-4 mb-xxl-5">Falls Ihnen unsere Zahlreichen Bewertungen gefallen, wenden sie sich gerne jederzeit an uns!</p>
                               </div>
                             </div>
@@ -896,11 +896,11 @@
                               <form action="#!">
                                 <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                                   <div class="col-12">
-                                    <label for="fullname" class="form-label">Vor- & Nachname<span class="text-danger">*</span></label>
+                                    <label for="fullname" class="form-label txt-light">Vor- & Nachname<span class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
                                   </div>
                                   <div class="col-12 col-md-6">
-                                    <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                    <label for="email" class="form-label txt-light">Email <span class="text-danger">*</span></label>
                                     <div class="input-group">
                                       <span class="input-group-text">
                                           <img src="_assets/_icons/bootstrap-icons-1.11.3/mailbox-flag.svg">
@@ -909,7 +909,7 @@
                                     </div>
                                   </div>
                                   <div class="col-12 col-md-6">
-                                    <label for="phone" class="form-label">Telefonnummer</label>
+                                    <label for="phone" class="form-label txt-light">Telefonnummer</label>
                                     <div class="input-group">
                                       <span class="input-group-text">
                                         <img src="_assets/_icons/bootstrap-icons-1.11.3/phone.svg">
@@ -919,23 +919,23 @@
                                   </div>
 
                                   <div class="col-12 col-md-6">
-                                    <label for="phone" class="form-label">Anmeldeformular (optional)</label>
+                                    <label for="phone" class="form-label txt-light">Anmeldeformular (optional)</label>
                                     <div class="input-group">
-                                      <input id="anmeldeformular" name="anmeldeformular" placeholder="Anmeldeformular hochladen" type="file">
+                                      <input id="anmeldeformular" name="anmeldeformular" placeholder="Anmeldeformular hochladen" type="file" accept="application/pdf">
                                     </div>
                                   </div>
 
                                   <div class="col-12">
-                                    <label for="subject" class="form-label">Anfragenkategorie <span class="text-danger">*</span></label>
+                                    <label for="subject" class="form-label txt-light">Anfragenkategorie <span class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="subject" name="subject" value="" required>
                                   </div>
                                   <div class="col-12">
-                                    <label for="message" class="form-label">Nachricht <span class="text-danger">*</span></label>
+                                    <label for="message" class="form-label txt-light">Nachricht <span class="text-danger">*</span></label>
                                     <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                                   </div>
                                   <div class="col-12">
-                                    <div class="d-grid">
-                                      <button class="btn btn-primary btn-lg" type="submit">Abschicken</button>
+                                    <div class="d-grid" style="margin-top: 20px;">
+                                      <button class="btn btn-primary btn-lg" style="background-color: #ff9900; border: #ff9900;" type="submit">Abschicken</button>
                                     </div>
                                   </div>
                                 </div>
