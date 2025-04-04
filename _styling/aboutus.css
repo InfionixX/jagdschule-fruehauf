@@ -303,7 +303,11 @@
 
     .image-wrapper-logo{
         width: 100%;
-        height: 30%;
+        height: 60%;
+    }
+
+    .image-wrapper-logo img{
+        width: 100%;
     }
 }
 

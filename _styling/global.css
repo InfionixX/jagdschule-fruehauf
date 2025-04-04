@@ -4,10 +4,12 @@ body {
     margin: 0;
     max-width: 100%;
     padding: 0;
+    overflow-x: hidden;
 }
 
 *{
     font-family: Inria Serif;
+    box-sizing: border-box;
 }
 
 .styled-spacer{
@@ -60,6 +62,11 @@ body {
 
   .styled-h2-light{
     color:#FEF6B5;
+  }
+
+  .marked-text{
+    color: #ff9900;
+    font-weight: 700;
   }
 
   .sectionheading-dark>h1{

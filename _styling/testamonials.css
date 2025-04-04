@@ -9,6 +9,10 @@ a,a:hover{
     text-decoration: none;
 }
 
+.test-hidden-img{
+    display: none;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     .testimonial{
@@ -215,6 +219,22 @@ body{
     color: #FEF6B5;
 }
 
+@media only screen and (max-width:991px) {
+    .test-hidden-img{
+        display: block;
+        height: 20vh;
+        width: 20vh;
+        align-self: center;
+        justify-self: center;
+        margin-bottom: 3%;
+    }
+
+    .rating{
+        margin-top: 0;
+        padding-left: 0;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     body{
         .testimonial{
@@ -229,3 +249,5 @@ body{
 @media only screen and (max-width: 567px) {
     
 }
+
+

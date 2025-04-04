@@ -25,17 +25,17 @@
 
 .modal-bg-andreas{
     background: rgb(255,255,255);
-    background: #000000bb;
+    background: #2c3930f3;
 }
 
 .modal-bg-silvio{
     background: rgb(255,255,255);
-    background: #000000bb;
+    background: #2c3930f3;
 }
 
 .modal-bg-marko{
     background: rgb(255,255,255);
-    background:  #000000bb;
+    background:  #2c3930f3;
 }
 
 
@@ -146,6 +146,7 @@ img {
 
 .about-list {
   padding-top: 10px;
+  width: 100%;
 }
 .about-list .media {
   padding: 5px 0;
@@ -182,6 +183,25 @@ img {
 .about-avatar{
     height: 60%;
     width: 60%;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.about-attributes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.avatar-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 5%;
 }
 
 @media (max-width: 991px) {
@@ -216,6 +236,12 @@ img {
   box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
 }
 .counter .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #7D8F69;
+}
+
+.count-data {
   margin-top: 10px;
   margin-bottom: 10px;
 }

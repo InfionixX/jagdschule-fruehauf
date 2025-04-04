@@ -55,7 +55,8 @@
 	position: absolute;
 	text-align: center;
 	justify-content: center;
-	left: 22px
+    align-self: center;
+	left: 25%;
 }
 
 .social-icons li {
