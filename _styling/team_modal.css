@@ -243,7 +243,6 @@ img {
   margin: 0;
 }
 mark {
-    background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
     background-size: 100% 3px;
     background-repeat: no-repeat;
     background-position: 0 bottom;
