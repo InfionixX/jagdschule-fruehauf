@@ -2868,6 +2868,12 @@
   text-transform: none;
   text-decoration: none;
 }
+
+@media(max-width: 1024px) {
+  .thq-img-scale {
+    width: 200px;
+  }
+}
  
 @media(max-width: 991px) {
   .thq-grid-4 {
@@ -2908,9 +2914,6 @@
   .thq-grid-2 {
     grid-gap: var(--dl-layout-space-oneandhalfunits);
     grid-template-columns: 1fr;
-  }
-  .thq-img-scale {
-    width: 100%;
   }
 }
  

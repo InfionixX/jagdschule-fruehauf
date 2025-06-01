@@ -36,5 +36,15 @@
 }
   
   @media (max-width: 768px) {
-  
+    .postcard__text>.row>.col-md-6>.d-flex{
+        flex-direction: column;
+    }
+
+    .postcard__text>.row>.col-md-6>.d-flex>svg{
+        justify-self: center;
+        align-self: center;
+
+        height: 50px;
+        width: 50px;
+    }
   }

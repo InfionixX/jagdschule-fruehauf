@@ -73,15 +73,13 @@
 
 .course-icon-group{
   color: rgb(157, 190, 64);
-  width: 4vw;
-  height: 4vh;
+  height: 40px;
   margin-right: 10px;
 }
 
 .course-icon-individual{
   color: #9EBF3F;
-  width: 4vw;
-  height: 4vh;
+  height: 40px;
   margin-right: 10px;
 }
 

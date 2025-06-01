@@ -219,9 +219,11 @@
     transform: rotate(180deg);
   }
 
-  
+  @media (max-width: 1024px) {
+        
+    }
 
-  @media (max-width: 991px) {
+  @media (max-width: 1024px) {
 
     .training-row>.col-sm-6{
         max-width: 100%;
