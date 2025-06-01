@@ -1,5 +1,9 @@
+.thq-padding{
+  padding-top: 10%;
+}
+
 body {
-    background-color: #f7e7d6;
+  background-color: #1E2203;
     box-sizing: unset;
     margin: 0;
     max-width: 100%;
@@ -49,6 +53,7 @@ body {
   .styled-paragraph{
     margin-top: 10px;
     font-size: 1.5rem;
+    color: white;
   }
 
   .styled-paragraph-small{
@@ -108,13 +113,13 @@ body {
   }
 
   .cardtitel-dark{
-    color: #41653B;
+    color: rgb(158, 191, 63);
     font-size: 1rem;
     font-weight: 700;
   }
 
   .cardtext-grey{
-    color: #828282;
+    color: white;
     font-size: 1rem;
   }
 

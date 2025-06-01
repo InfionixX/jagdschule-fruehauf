@@ -185,9 +185,6 @@ a, a:hover {
   padding-top: 20px;
 }
 
-.course-price-indivdual{
-  color: red;
-}
 
 .collapsible-link::before {
   content: '';
@@ -251,7 +248,7 @@ a, a:hover {
 }
 
 .bg-group{
-  background: orange;
+  background: rgb(157, 190, 64);
 }
 
 .bg-individual{
@@ -508,6 +505,7 @@ a, a:hover {
     height: 30px;
     width: 30px;
     margin-bottom: 10px;
+    color: rgb(157, 190, 64);
   }
 
   #individualcourse-card>.row{

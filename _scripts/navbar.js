@@ -10,7 +10,7 @@ function createNavBarToggle(){
 
         navbarToggler.addEventListener('click', function() {
             if (navbar.classList.contains('bg-green') && clicked) {
-                if(window.scrollY < headingSection.offsetHeight){
+                if(window.scrollY <= 0){
                     navbar.classList.remove('bg-green');
                 }
                 navbarCollapse.classList.remove('bg-green');
@@ -53,7 +53,7 @@ function createNavBarToggle(){
                 if (navbarCollapse.classList.contains('show')) {
                     navbarToggler.click();
                 }
-                if(window.scrollY < headingSection.offsetHeight){
+                if(window.scrollY <= 0){
                     navbar.classList.remove('bg-green');
                     navbarCollapse.classList.remove('bg-green');
                 }
@@ -63,7 +63,7 @@ function createNavBarToggle(){
 
         // Change navbar background color on scroll
         window.addEventListener('scroll', function() {
-            if (window.scrollY > headingSection.offsetHeight) {
+            if (window.scrollY > 0) {
                 navbar.classList.add('bg-green');
                 navbarCollapse.classList.add('bg-green');
             } else if(!navbarCollapse.classList.contains('show')){

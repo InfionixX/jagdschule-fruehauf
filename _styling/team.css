@@ -7,9 +7,11 @@
     height: fit-content;
     margin-bottom: 10%;
     margin-top: 5%;
-    background-color: #3F4F44;
-    border: 2px solid #DCD7C9;
     border-radius: 20px;
+}
+
+.profile-container{
+    padding-top: 5%;
 }
 
 
@@ -48,24 +50,10 @@
 	opacity: 1
 }
 
-.social-icons {
-	display: flex;
-	list-style: none;
-	bottom: 10px;
-	position: absolute;
-	text-align: center;
-	justify-content: center;
-    align-self: center;
-	left: 25%;
-}
-
-.social-icons li {
+.social-icon {
 	width: 25px;
 	height: 25px;
-	border: 1px solid #eee;
-	padding: 20px;
 	margin-right: 10px;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: #fff;
@@ -73,9 +61,8 @@
 	transition: all 1s
 }
 
-.social-icons li:hover {
-	background: #fff;
-	color: #000
+.social-icon:hover {
+	color: rgb(158, 191, 63);
 }
 
 .overlay .about {
@@ -96,6 +83,13 @@
     
 @media (max-width: 768px) {
 
+        #second_profile_pic{
+            order: 1;
+        }
+
+        #second_profile{
+            order: 2;
+        }
 
     .round-container {
         width: 100vmin;
