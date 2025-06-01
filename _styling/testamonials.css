@@ -170,7 +170,7 @@ body{
                     li{
                         background: rgb(158, 191, 63);
                         background-clip: padding-box;
-                        height: 2px;
+                        
                     }
                 }
                 .carousel-inner{
@@ -206,15 +206,6 @@ body{
 
 .bi-star-half{
     color: red;
-}
-
-.atlas-link{
-    text-decoration: none;
-    color: #FEF6B5;
-}
-
-.atlas-link:hover{
-    color: #FEF6B5;
 }
 
 .carousel-indicators>li:active{
