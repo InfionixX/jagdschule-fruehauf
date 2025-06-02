@@ -244,13 +244,21 @@
     }
 
     #AboutUs{
-        margin-top: 20%;
+        margin-top: 5%;
     }
 
     .about-us-container{
         margin-left: 0;
         margin-right: 0;
         width: 100%;
+    }
+
+    .action-row{
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
     }
   }
     

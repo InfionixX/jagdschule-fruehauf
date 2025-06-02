@@ -312,7 +312,7 @@ a, a:hover {
   background-color: transparent;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 991px) {
   .postcard {
     flex-wrap: inherit;
   }
@@ -460,7 +460,7 @@ a, a:hover {
   background-image: linear-gradient(30deg, rgba(189, 187, 73, 0.1), transparent 50%);
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 991px) {
   .green::before {
     background-image: linear-gradient(-80deg, rgba(121, 221, 9, 0.1), transparent 50%);
   }

@@ -9,7 +9,20 @@
             align-items: center;
             display: flex;
             padding-right: 5%;
-            padding-top: 15%;
+            padding-bottom: 10%;
+            padding-top: 10%;
+}
+
+#carouselExampleIndicators2{
+    min-height: 100%;
+}
+
+#carouselExampleIndicators2> .carousel-inner{
+    min-height: 100%;
+}
+
+#carouselExampleIndicators2> .carousel-inner .carousel-item{
+    min-height: 100%;
 }
 
 .training-row{

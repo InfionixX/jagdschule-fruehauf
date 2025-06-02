@@ -11,6 +11,10 @@ a,a:hover{
     display: none;
 }
 
+.test-hidden-img-wrapper{
+    display: none;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     .testimonial{
@@ -221,6 +225,13 @@ body{
         justify-self: center;
         margin-bottom: 3%;
     }
+
+    .test-hidden-img-wrapper{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
 
     .rating{
         margin-top: 0;
